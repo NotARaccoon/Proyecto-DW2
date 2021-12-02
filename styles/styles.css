@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Ruthie&family=Sassy+Frass&display=swap');
+
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+nav{
+    max-height: 100px;
+}
+
+nav ul{
+    background-color: red;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li{
+    font-size: 25px;
+    display: inline;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    text-align: center;
+}
+
+/*Pagina de inicio (index)*/
+
+.titulo{
+    margin-top: 0;
+    display: block;
+    height: 800px;
+}
+
+.titulo h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Ruthie', cursive;
+    font-weight: normal;
+    font-size: 144px;
+    margin-top: 80px;
+    line-height: 92%;
+}
+
+.boton{
+    padding: 20px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #950000;
+    border-radius: 15px;
+    margin-left: 35%;
+}
+
+.boton:hover{
+    background-color: #bb0000;
+}
+
+/*Pagina hombres*/
+
+.main-hombre{
+    position: relative;
+}
+
+.container-hombre{
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    background-color: #9500004d;
+    top: 0;
+    right: 0%;
+}
+
+.texto-hombre1{
+    position: absolute;
+    font-size: 90px;
+    top: 20%;
+    right: 30px;
+}
+.texto-hombre2{
+    position: absolute;
+    font-size: 50px;
+    top: 34%;
+    right: 30px;
+}
+
+.plantilla-hombres{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.plantilla-hombres h1{
+    margin-bottom: 0;
+}
+
+.plantilla-hombres h3{
+    margin-top: 0;
+}
+
+.plantilla-hombres a{
+    color: black;
+}
+
+
+/*Inicio de sesion*/
+
+.main-container{
+    background-color: red;
+    display: flex;
+}
+
+.links ul{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.links li{
+    margin-right: 30px;
+    display: inline-block;
+}
+
+.links a{
+    font-size: 18px;
+}
+
+.redes{
+    margin-left: 500px;
+}
+
+.main-iniciosesion{
+    display: flex;
+}
+
+.main-iniciosesion h2{
+    justify-content: center;
+    text-align: center;
+}
+
+.form-inicio{
+    width: 100%;
+}
+
+.input-cuenta input{
+    border-radius: 25px;
+    padding: 15px 40px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.links-cuenta{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links-cuenta a{
+    color: black;
+}
+
+.mantener-sesion{
+    display: flex;
+    justify-content: center;
+}
+
+.iniciar-sesion{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#iniciarsesion{
+    padding: 15px 30px;
+    text-align: center;
+}
+
+/*Formulario de registro*/
+.main-registro{
+    border: rgb(104, 104, 104);
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.main-registro h1{
+    margin-left: 5%;
+}
+
+.formulario{
+    border-style: solid;
+    border-radius: 15px;
+    margin-left: 5%;
+    margin-right: 50%;
+    display: flex;
+    justify-content:left;
+}
+
+.container-formulario{
+    padding: 20px;
+}
+
+
+#textos-obligatorios{
+    color: #AFAFAF;
+    font-size: 18px;
+    margin: 10px;
+    display: inline;
+}
+
+.container-formulario ul{
+    color: #7B7B7B;
+    font-size: 18px;
+    list-style: none;
+
+}
+
+.container-formulario ul li{
+    display: block;
+    text-align: end;
+    margin-top: 10px;
+}
+
+.container-formulario label{
+    margin-right: 20px;
+}
+
+.boton-registro{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #950000;
+    text-align: center;
+}
+
+.boton-registro a{
+    color: white;
+    
+}
+
+/*Compra*/
+
+.main-datos{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.datos{
+    max-width: 50%;
+}
+
+.compra{
+    width: 50%;
+    background-color: #950000;
+}
+
+.camiseta{
+    margin-left: 20px;
+}
+
+.descuento{
+    margin-left: 20px;
+}
+
+.descuento a{
+    padding: 5px 10px;
+    background-color: #7B7B7B;
+    color: black;
+    border-radius: 15px;
+}
+
+.precio{
+    margin-left: 20px;
+}
+
+#imagen-camiseta{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+footer{
+    bottom: 0;
+    width: 100%;
+}

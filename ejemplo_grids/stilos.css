@@ -1,0 +1,71 @@
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li{
+    display: inline;
+    padding: 10px 10px;
+    border-radius: 15px;
+    background-color: tomato;
+}
+
+.border-items{
+    border-color: black;
+    border-style: solid;
+}
+
+#grid-template{
+    display: grid;
+    background-color: blueviolet;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 3fr 1fr;
+    color:white;
+}
+
+#plantilla{
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    " header header"
+    " producto publicidad"
+    " servicios publicidad"
+    " footer footer";
+    grid-template-rows: 50px auto 3fr 170px;
+    grid-template-columns: repeat(2, 3fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+}
+
+header{
+    grid-area: header;
+    background-color: blanchedalmond;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: footer;
+    background-color: chocolate;
+}
+
+#servicios{
+    grid-area: servicios;
+    background-color: tomato;
+}
+
+.publicidad{
+    grid-area: publicidad;
+    background-color: blue;
+}
+
+.menu{
+    grid-area: nav;
+    background-color: aqua;
+}
+
+.productos{
+    grid-area: producto;
+    background-color: yellowgreen;
+}

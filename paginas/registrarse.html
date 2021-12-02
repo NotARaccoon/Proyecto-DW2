@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <title>Contactanos</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/index.html">
+                        <img src="../recursos/img/logo.png" alt="logo" width="80" height="80">
+                    </a>
+                </li>
+                <li>
+                    <a href="../paginas/hombres.html">Hombres</a>
+                </li>
+                <li>
+                    <a href="../paginas/mujeres.html">Mujeres</a>
+                </li>
+                <li>
+                    <a href="../paginas/ninos.html">Niños</a>
+                </li>
+                <li>
+                    <a href="../paginas/registrarse.html">Registrate aqui</a>
+                </li>
+                <li>
+                    <a href="/paginas/iniciarsesion.html">
+                        <img src="../recursos/img/inicio_sesion.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="/paginas/compras.html">
+                        <img src="../recursos/img/Carrito de compras.png" alt="">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="main-registro">
+            <h1>Formulario de registro</h1>
+            <form action="" class="formulario">
+                <div class="container-formulario">
+                    <p id="textos-obligatorios">Completa tus datos personales</p>
+                    <p id="textos-obligatorios">*Campos obligatorios</p>
+                    <ul>
+                        <li>
+                            <label for="nombre">Nombre*</label>
+                            <input type="text" name="nombre_usuario" id="">
+                        </li>
+                        <li>
+                            <label for="apellido_paterno">Apellido Paterno*</label>
+                            <input type="text" name="apellido_p">
+                        </li>
+                        <li>
+                            <label for="apellido_materno">Apellido Materno*</label>
+                            <input type="text" name="apellido_m" id="">
+                        </li>
+                        <li>
+                            <label for="email">Email*</label>
+                            <input type="email" name="nombre_usuario" id="">
+                        </li>
+                        <li>
+                            <label for="clave">Clave*</label>
+                            <input type="password" name="clave">
+                        </li>
+                        <li>
+                            <label for="pais">Pais de residencia*</label>
+                            <input list="paises">
+                            <datalist id="paises">
+                                <option value="Peru"></option>
+                                <option value="Colombia"></option>
+                                <option value="Chile"></option>
+                                <option value="Argentina"></option>
+                                <option value="Mexico"></option>
+                                <option value="Otros"></option>
+                            </datalist>
+                        </li>
+                        <li>
+                            <label for="pais">Tipo de documento*</label>
+                            <input list="documento">
+                            <datalist id="documento">
+                                <option value="DNI"></option>
+                                <option value="Pasaporte"></option>
+                                <option value="Carnet extranjero"></option>
+                            </datalist>
+                        </li>
+                        <li id="genero">
+                            <label for="genero">Genero*</label>
+                            <input type="radio" name="genero" value="Hombre">
+                            <label for="hombre">Hombre</label>
+                            <input type="radio" name="genero" value="Mujer">
+                            <label for="mujer">Mujer</label>
+                            <input type="radio" name="genero" value="Otros">
+                            <label for="otros">Otros</label>
+                        </li>
+                        <li>
+                            <label for="nacimiento">Fecha de nacimiento*</label>
+                            <input type="date"
+                            value="2021-11-25"
+                            min="1900-01-01" max="2021-11-25">
+                        </li>
+                        <li>
+                            <label for="telefono">Numero de telefono*</label>
+                            <input type="number">
+                        </li>
+                        <li id="condiciones">
+                            <input type="checkbox" name="condiciones">
+                            <label for="">Aceptar los terminos y condiciones*</label><br>
+                            <input type="checkbox" name="condiciones">
+                            <label for="">Recibir notificacines y promociones</label>
+                        </li>
+                    </ul>
+                    <div class="boton-registro">
+                        <a href="">Registrarse</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+    </section>
+
+    <footer>
+        <div class="main-container">
+            <div class="links">
+                <ul>
+                    <li>
+                        <a href="">Cambios o devoluciones</a>
+                    </li>
+                    <li>
+                        <a href="">Terminos y condiciones</a>
+                    </li>
+                    <li>
+                        <a href="">Contactanos</a>
+                    </li>
+                    <li>
+                        <a href="">Guia de tallas</a>
+                    </li>
+                    <li>
+                        <a href="">Retiro en tienda</a>
+                    </li>
+                    <li>
+                        <a href="">Seguimiento de mi pedido</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="redes">
+                <img src="../recursos/img/facebook.png" alt="">
+                <img src="../recursos/img/instagram.png" alt="">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
