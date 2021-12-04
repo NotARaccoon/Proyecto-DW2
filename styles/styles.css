@@ -154,14 +154,16 @@ a{
 
 .input-cuenta input{
     border-radius: 25px;
-    padding: 15px 40px;
+    padding: 15px 120px;
     margin-bottom: 5px;
     margin-left: auto;
     margin-right: auto;
     display: block;
+    font-size: 20px;
 }
 
 .links-cuenta{
+    margin-top: 20px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -171,19 +173,24 @@ a{
 }
 
 .mantener-sesion{
+    margin-top: 30px;
+    font-size: 20px;
     display: flex;
     justify-content: center;
 }
 
 .iniciar-sesion{
-    margin-top: 30px;
+    margin: 30px 0 20px 0;
     display: flex;
     justify-content: center;
 }
 
 #iniciarsesion{
-    padding: 15px 30px;
+    padding: 15px 60px;
     text-align: center;
+    font-size: 20px;
+    background-color: #bb0000;
+    color: white;
 }
 
 /*Formulario de registro*/
@@ -252,9 +259,12 @@ a{
 
 .main-datos{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
+    flex-wrap: wrap;
     width: 100%;
+    margin: auto;
     margin-left: 10px;
+
 }
 
 .datos-personales{
@@ -362,6 +372,8 @@ footer{
 }
 
 .main-container-footer{
+    bottom: 0;
+    width: 100%;
     background-color: red;
     display: flex;
     justify-content: space-evenly;
