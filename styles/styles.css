@@ -4,9 +4,11 @@
 
 body{
     font-family: 'PT Sans', sans-serif;
+    margin: 0;
 }
 
 nav{
+    max-width: 100%;
     max-height: 100px;
 }
 
@@ -16,6 +18,7 @@ nav ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 0;
 }
 
 nav ul li{
@@ -251,6 +254,73 @@ a{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    margin-left: 10px;
+}
+
+.datos-personales{
+    display: grid;
+    grid-template-areas: 
+    "correo correo"
+    "nombre apellido"
+    "telefono telefono";
+    grid-template-rows: repeat(3,40px);
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+#correo{
+    grid-area: correo;
+}
+
+#nombre{
+    grid-area: nombre;
+}
+
+#apellido{
+    grid-area: apellido;
+}
+
+#telefono{
+    grid-area: telefono;
+}
+
+.datos-personales input{
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.direccion-envio{
+    display: grid;
+    grid-template-areas: 
+    "direccion direccion"
+    "codigoP ciudad"
+    "pais pais";
+    grid-template-rows: repeat(3,40px);
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.direccion-envio input{
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+#direccion{
+    grid-area: direccion;
+}
+
+#codigoP{
+    grid-area: codigoP;
+}
+
+#ciudad{
+    grid-area: ciudad;
+}
+
+#pais{
+    grid-area: pais;
 }
 
 .datos{
