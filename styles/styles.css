@@ -360,3 +360,18 @@ footer{
     bottom: 0;
     width: 100%;
 }
+
+.main-container-footer{
+    background-color: red;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links-container{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.links{
+    display: inline;
+}
