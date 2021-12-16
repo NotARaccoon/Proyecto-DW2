@@ -1,0 +1,62 @@
+.hijo{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.padre div:nth-child(2){
+    background-color: tomato;
+}
+
+.padre div:nth-child(3){
+    background-color: green;
+}
+
+.padre div:nth-last-child(){
+    background-color: aqua;
+}
+
+.cubo-1{
+    width: 400px;
+    height: 400px;
+    background-color: tomato;
+}
+.cubo-2{
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+}
+
+.cubo-3{
+    width: 500px;
+    height: 500px;
+    background-color: aquamarine;
+}
+@media (max-width:320px) {
+    .cubo-1{
+        background-color: chartreuse;
+        width: 100%;
+    }
+    .cubo-2{
+        width: 100%;
+        background-color: orange;
+    }
+}
+
+@media (min-width:321px) and (max-width:768px){
+    .cubo-2{
+        display: none;
+    }
+}
+@media(min-width:769px), handheld{
+    .cubo-2{
+        background-color: crimson;
+        width: 100%;
+    }
+}
+@media tv and (min-width:998px) and (orientation:landscape){
+    .cubo-3{
+        width: 100%;
+        background-color: cornflowerblue;
+    }
+}
