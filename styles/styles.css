@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Ruthie&family=Sassy+Frass&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cookie');
 
 body{
     font-family: 'PT Sans', sans-serif;
@@ -396,6 +398,102 @@ a{
     margin-top: 20px;
     margin-left: 20px;
 }
+
+/*Ninos-Juguetes*/
+
+.cabeza-imagenes{
+    display: flex;
+    justify-content: space-evenly;
+    max-height: 400px;
+}
+
+.compra-edades{
+    margin-top: 40px;
+}
+
+.compra-edades h1{
+    padding-left: 40px;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(0, 119, 255);
+}
+
+.imagenes-ninos{
+    margin-top: 10px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.imagenes-ninos p{
+    color:black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.novedades-navideñas{
+    background-color: #F24236;
+    height: 200px;
+    width: 100%;
+    font-family: 'Cookie', cursive;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Sacado de internet pero se ve piola */
+    background-image: url('https://designshack.net/tutorialexamples/letitsnow/snow.png'), url('https://designshack.net/tutorialexamples/letitsnow/snow3.png'), url('https://designshack.net/tutorialexamples/letitsnow/snow2.png');
+	-webkit-animation: snow 20s linear infinite;
+	-moz-animation: snow 20s linear infinite;
+	-ms-animation: snow 20s linear infinite;
+	animation: snow 20s linear infinite;
+}
+
+.novedades-navideñas h1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+@keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+     100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+    }
+    
+    @-moz-keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+    }
+    
+    @-webkit-keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+     50% {background-color:#b4cfe0;}
+     100% {background-position: 500px 1000px, 400px 400px, 300px 300px; background-color:#6b92b9;}
+    }
+    
+    @-ms-keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+     100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+    }
+
+.juguetes{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.juguetes-card p{
+    color:black;
+}
+
+.juguetes-card a{
+    background-color: #950000;
+    padding: 5px 9px;
+    border-radius: 20px;
+    font-size: 26px;
+    color:black;
+}
+
+
 
 footer{
     bottom: 0;
